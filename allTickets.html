@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css"> -->
+    <title>TAT Group | Developer.OmarFaruk</title>
+</head>
+
+<body id="body">
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav_icon" onclick="toggleSidebar()">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            <div class="navbar__left">
+                <a class="active_link" href="#">All Tickets</a>
+
+
+            </div>
+            <div class="navbar__right">
+                <div class="search-box">
+                    <input class="search-txt" type="text" name="" placeholder="Type to Search">
+                    <a class="search-btn" href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+
+
+                <a href="#">
+                    <img width="45" class="admin-pic" src="assets/admin-pic.svg" alt="" />
+                    <!-- <i class="fa fa-user-circle-o" aria-hidden="true"></i> -->
+                </a>
+            </div>
+        </nav>
+
+        <main>
+            <div class="main__container">
+
+
+                <!-- CHARTS STARTS HERE -->
+                <div class="table-chart">
+                    <div class="table__left">
+                        <div class="table-responsive">
+                            <table class="table table-dark table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Service Name</th>
+                                        <th>Date Submitted</th>
+                                        <th>Name</th>
+                                        <th>Number</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td data-label="Service Name">Option 1</td>
+                                        <td data-label="Date Submitted">16/03/2021</td>
+                                        <td data-label="Name">Omar</td>
+                                        <td data-label="Number">1234</td>
+                                        <td data-label="Status" class="reviewed">Reviewed <i class="eye-icon fas fa-eye"></i></td>
+
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Service Name">Option 2</td>
+                                        <td data-label="Date Submitted">17/04/2021</td>
+                                        <td data-label="Name">Faruk</td>
+                                        <td data-label="Number">2222</td>
+                                        <td data-label="Status" class="reviewing">Reviewing<i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Service Name">Option 3</td>
+                                        <td data-label="Date Submitted">18/05/2021</td>
+                                        <td data-label="Name">Tutul</td>
+                                        <td data-label="Number">1012</td>
+                                        <td data-label="Status" class="unopened">Unopened<i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td data-label="Service Name">Option 4</td>
+                                        <td data-label="Date Submitted">19/06/2021</td>
+                                        <td data-label="Name">Developer</td>
+                                        <td data-label="Number">5456</td>
+                                        <td data-label="Status" class="reviewed">Reviewed <i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td data-label="Service Name">Option 2</td>
+                                        <td data-label="Date Submitted">17/04/2021</td>
+                                        <td data-label="Name">Faruk</td>
+                                        <td data-label="Number">2222</td>
+                                        <td data-label="Status" class="reviewing">Reviewing<i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td data-label="Service Name">Option 3</td>
+                                        <td data-label="Date Submitted">18/05/2021</td>
+                                        <td data-label="Name">Tutul</td>
+                                        <td data-label="Number">1012</td>
+                                        <td data-label="Status" class="unopened">Unopened<i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+
+                                    <tr>
+                                        <td data-label="Service Name">Option 4</td>
+                                        <td data-label="Date Submitted">19/06/2021</td>
+                                        <td data-label="Name">Developer</td>
+                                        <td data-label="Number">5456</td>
+                                        <td data-label="Status" class="reviewed">Reviewed <i class="eye-icon fas fa-eye"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="table__right">
+                        <table class="table table-dark table-hover">
+                            <thead>
+                                <tr>
+                                    <th class="th-p ">
+                                        <p>Faruk's ticket</p> Reviewing
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                <tr>
+                                    <td class="t-r-td" data-label="Service Name">Option 1</td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Date Submitted">17/04/2021</td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Name">Tutul</td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Gmail">faruk1234@gmail.com</td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Number">5456</td>
+                                </tr>
+
+                                <tr>
+                                    <td data-label="Message">Message</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td data-label="Message">
+                                        <button type="submit" class="reviewing btn-rg">Reviewing</button>
+                                        <button type="submit" class="reviewed  btn-rd ">Reviewed</button>
+                                    </td>
+
+                                </tr>
+
+                            </tbody>
+
+
+                        </table>
+                    </div>
+                    <!-- CHARTS ENDS HERE -->
+                </div>
+
+                <p class="footer__copy">&#169; 2021 Developer.OmarFaruk | All right reserved</p>
+        </main>
+
+        <div id="sidebar">
+            <div class="sidebar__title">
+                <div>
+                    <h1>TAT GROUP</h1>
+                </div>
+                <i onclick="closeSidebar()" class="fa fa-times" id="sidebarIcon" aria-hidden="true"></i>
+            </div>
+
+            <div class="sidebar__menu">
+                <div class="sidebar__link active_menu_link">
+                    <i class="user-icon fas fa-user-circle"></i>
+                    <a href="#">Admin</a>
+                </div>
+
+                <div class="sidebar__link menu_link">
+                    <i class="fas fa-ticket-alt"></i>
+                    <a href="#">All Tickets</a>
+                </div>
+
+
+                <div class="sidebar__link menu_link">
+                    <i class="fas fa-frown-open"></i>
+                    <a href="#">Unopened</a>
+                </div>
+
+
+
+                <div class="sidebar__link menu_link">
+                    <i class="fab fa-resolving"></i>
+                    <a href="#">Reviewing</a>
+                </div>
+
+
+                <div class="sidebar__link menu_link">
+                    <i class="fas fa-check-circle"></i>
+                    <a href="#">Reviewed</a>
+                </div>
+
+
+                <div class="sidebar__logout">
+                    <i class="fa fa-power-off"></i>
+                    <a href="#">Log out</a>
+                </div>
+            </div>
+        </div>
+
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+        <script src="script.js"></script>
+</body>
+
+
+
+</html>
